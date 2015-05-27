@@ -1,4 +1,4 @@
 # test_poll
-Для установки:
+Р”Р»СЏ СѓСЃС‚Р°РЅРѕРІРєРё:
     1.  git clone https://github.com/alymarev/test_poll.git;
     2.  npm install
