@@ -5,3 +5,8 @@ var http = require('http');
 var express = require('express');
 var jade = require('jade');
 var stylus = require('stylus');
+
+var app = express();
+http.createServer(app).listen(3000, function () {
+    console.log('Server running!!');
+});
