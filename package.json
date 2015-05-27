@@ -1,0 +1,24 @@
+{
+  "name": "test_poll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alymarev/test_poll.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alymarev/test_poll/issues"
+  },
+  "homepage": "https://github.com/alymarev/test_poll#readme",
+  "devDependencies": {
+    "express": "^4.12.4",
+    "jade": "^1.10.0",
+    "stylus": "^0.51.1"
+  }
+}
