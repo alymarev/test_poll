@@ -10,7 +10,7 @@ var app = module.exports = exports = express();
 
 app.set('port',3000);
 app.set('views','./views');
-app.set('views engine', 'jade');
+app.set('view engine', 'jade');
 
 
 //app.use

@@ -4,6 +4,11 @@
 'use strict';
 var app = require('../app');
 
-app.get('/', function (res, req) {
-    req.send("hello, word");
+app.get('/', function (res, req, next) {
+    req.url = 'index.html';
+    next();
+});
+
+app.get('/*',function(req, res){
+    res.render(req.params[0])
 });
