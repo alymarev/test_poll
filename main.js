@@ -4,6 +4,8 @@
 var http = require('http');
 var app = require('./app');
 
-http.createServer(app).listen(3000, function () {
+require('./routes/index');
+
+http.createServer(app).listen(app.get('port'), function () {
     console.log('Server running!!');
 });

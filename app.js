@@ -8,8 +8,10 @@ var stylus = require('stylus');
 
 var app = module.exports = exports = express();
 
-app.get('/', function (res, req) {
-   req.send("hello, word");
-});
+app.set('port',3000);
+app.set('views','./views');
+app.set('views engine', 'jade');
 
+
+//app.use
 
