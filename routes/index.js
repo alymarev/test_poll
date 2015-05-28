@@ -1,5 +1,5 @@
 /**
- * Created by лымарев on 28.05.2015.
+ * Created by Р»С‹РјР°СЂРµРІ on 28.05.2015.
  */
 'use strict';
 var app = require('../app');
