@@ -4,14 +4,17 @@
 doctype html5
 html
    head
-      title first jade template for express
-   body
-      nav
-         li.item
-            a(href="/") home
-         li.item
-            a(href="/contacts") contacts
-         li.item
-            a(href="/projects") projects
+        title Система аналитических опросов
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet" href="http://localhost:3000/stylus/main.css")
+        link(href="http://localhost:3000/dist/css/bootstrap.min.css", rel="stylesheet")
 
-      block content
+   body
+      .container-fluid
+          header.col-md-12.col-xs-12.col-lg-12
+          include components/logo
+          include components/nav
+          .col-md-12.col-xs-12.col-lg-12
+            block content
+      script(src="http://localhost:3000/dist/js/jquery.min.js")
+       script(src="http://localhost:3000/dist/js/bootstrap.min.js")

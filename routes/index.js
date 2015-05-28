@@ -10,5 +10,5 @@ app.get('/', function (res, req, next) {
 });
 
 app.get('/*',function(req, res){
-    res.render(req.params[0])
+    res.render('pages/' + req.params[0])
 });
