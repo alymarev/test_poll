@@ -7,6 +7,11 @@ var jade = require('jade');
 var stylus = require('stylus');
 
 var app = express();
+
+app.get('/', function (res, req) {
+   req.send("hello, word");
+});
+
 http.createServer(app).listen(3000, function () {
     console.log('Server running!!');
 });
