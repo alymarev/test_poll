@@ -6,12 +6,10 @@ var express = require('express');
 var jade = require('jade');
 var stylus = require('stylus');
 
-var app = express();
+var app = module.exports = exports = express();
 
 app.get('/', function (res, req) {
    req.send("hello, word");
 });
 
-http.createServer(app).listen(3000, function () {
-    console.log('Server running!!');
-});
+
