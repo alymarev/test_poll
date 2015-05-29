@@ -1,13 +1,15 @@
 //
-   Created by ������� on 28.05.2015.
+   Created by лымарев on 28.05.2015.
 extends ../../layout
-
 include ../../components/custom_in
 include ../../components/form
-
-
 block content
-   form(method="POST" action="#")
-      label(for="name") name
-      input(type="text" name="name" id="name")
+    form(method="POST" action="")
+        .input-group-lg
+            label(for="title") Название теста
+            input(type="text" name="title" id="title")
+        .input-group-lg
+            a#add_in(href="")
+               span.glyphicon.glyphicon-plus
+               span Добавить поле
 
